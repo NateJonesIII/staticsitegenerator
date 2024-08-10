@@ -1,0 +1,8 @@
+[
+    TextNode(This is text with an , None, None),
+    TextNode(image, https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/zjjcJKZ.png, None), 
+    TextNode(second image, https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/3elNhQu.png, None),
+     
+    TextNode(image](https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/zjjcJKZ.png) and another ![second image](https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/3elNhQu.png),
+     text, None)
+]
