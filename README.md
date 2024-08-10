@@ -43,7 +43,6 @@ pip install -r requirements.txt
 -Run the main script to generate your site:
 ```
 bash main.sh
-
 ```
 - Your site will be generated in the public directory, ready to be deployed!
 
