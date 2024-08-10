@@ -39,8 +39,8 @@ pip install -r requirements.txt
 
 ## 🧩 Usage
 - Place your static files (images, CSS, etc.) in the static directory.
--Write your content in Markdown and save it in the content directory.
--Run the main script to generate your site:
+- Write your content in Markdown and save it in the content directory.
+- Run the main script to generate your site:
 ```
 bash main.sh
 ```
@@ -52,9 +52,9 @@ By design, static sites generated with this tool are highly secure. With no serv
 ## 🏗️ Future Enhancements
 While this project already provides a solid foundation, there are several exciting features planned for future releases:
 
-**Live Preview:** Preview your site in real-time as you write content.
-**Automated Deployments:** Seamlessly deploy your site to popular hosting platforms with a single command.
-**Advanced Templating:** Add support for more complex templates and dynamic content generation.
+- **Live Preview:** Preview your site in real-time as you write content.
+- **Automated Deployments:** Seamlessly deploy your site to popular hosting platforms with a single command.
+- **Advanced Templating:** Add support for more complex templates and dynamic content generation.
 
 ## 🧑‍💻 Contributing
 Contributions are welcome! Whether it's fixing bugs, adding new features, or improving documentation, your help is invaluable. Please submit a pull request or open an issue to get started.
