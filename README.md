@@ -12,17 +12,15 @@ This project began with a simple observation: modern websites are often over-eng
 
 Imagine a place where your content takes center stage, where every byte serves a purpose, and where speed is not a luxury but a guarantee. This is the vision behind the Static Site Generator.
 
-## 📸 Showcase
+## 📸 Showcase of Static Site Generator Output
 
-Here are some results of the static site generator:
+Here are some screenshots of the static site generator in action:
 
-<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px;">
-    <img src="documents/index.png" alt="Index Page" style="max-height: 300px; object-fit: contain; flex: 0 0 auto;" />
-    <img src="documents/majesty.png" alt="Majesty Page" style="max-height: 300px; object-fit: contain; flex: 0 0 auto;" />
-    <img src="documents/tolkien.png" alt="Tolkien Page" style="max-height: 300px; object-fit: contain; flex: 0 0 auto;" />
-    <img src="documents/web_dev_basics.png" alt="Web Dev Basics Page" style="max-height: 300px; object-fit: contain; flex: 0 0 auto;" />
-    <img src="documents/web_dev_tips.png" alt="Web Dev Tips Page" style="max-height: 300px; object-fit: contain; flex: 0 0 auto;" />
-</div>
+![Index Page](documents/index.png | width=200)
+![Majesty Page](documents/majesty.png | width=200)
+![Tolkien Page](documents/tolkien.png | width=200)
+![Web Dev Basics Page](documents/web_dev_basics.png | width=200)
+![Web Dev Tips Page](documents/web_dev_tips.png | width=200)
 
 
 ## 🚀 Why This Project?
