@@ -12,6 +12,19 @@ This project began with a simple observation: modern websites are often over-eng
 
 Imagine a place where your content takes center stage, where every byte serves a purpose, and where speed is not a luxury but a guarantee. This is the vision behind the Static Site Generator.
 
+## Table of Contents
+- [🌟 Introduction](#-introduction)
+- [📸 Showcase of Static Site Generator Output](#-showcase-of-static-site-generator-output)
+- [🚀 Why This Project?](#-why-this-project)
+- [🛠️ Features](#-features)
+- [💻 Installation](#-installation)
+- [🧩 Usage](#-usage)
+- [🛡️ Security](#-security)
+- [🏗️ Future Enhancements](#-future-enhancements)
+- [🧑‍💻 Contributing](#-contributing)
+- [🎉 Acknowledgments](#-acknowledgments)
+- [📄 License](#-license)
+
 ## 📸 Showcase of Static Site Generator Output
 
 | Page | Screenshot |
