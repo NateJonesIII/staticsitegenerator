@@ -14,15 +14,13 @@ Imagine a place where your content takes center stage, where every byte serves a
 
 ## 📸 Showcase of Static Site Generator Output
 
-Here are some screenshots of the static site generator in action:
-
-<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px;">
-    <img src="documents/index.png" alt="Index Page" style="max-height: 200px; object-fit: contain; flex: 0 0 auto;" />
-    <img src="documents/majesty.png" alt="Majesty Page" style="max-height: 200px; object-fit: contain; flex: 0 0 auto;" />
-    <img src="documents/tolkien.png" alt="Tolkien Page" style="max-height: 200px; object-fit: contain; flex: 0 0 auto;" />
-    <img src="documents/web_dev_basics.png" alt="Web Dev Basics Page" style="max-height: 200px; object-fit: contain; flex: 0 0 auto;" />
-    <img src="documents/web_dev_tips.png" alt="Web Dev Tips Page" style="max-height: 200px; object-fit: contain; flex: 0 0 auto;" />
-</div>
+| Page | Screenshot |
+|------|------------|
+| Index Page | ![Index Page](documents/index.png) |
+| Majesty Page | ![Majesty Page](documents/majesty.png) |
+| Tolkien Page | ![Tolkien Page](documents/tolkien.png) |
+| Web Dev Basics Page | ![Web Dev Basics Page](documents/web_dev_basics.png) |
+| Web Dev Tips Page | ![Web Dev Tips Page](documents/web_dev_tips.png) |
 
 
 ## 🚀 Why This Project?
