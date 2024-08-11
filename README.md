@@ -16,7 +16,7 @@ Imagine a place where your content takes center stage, where every byte serves a
 
 Here are some screenshots of the static site generator in action:
 
-![Index Page](https://github.com/NateJonesIII/staticsitegenerator/blob/e60ac9469b035ceb3d8e12441a296b49a1177792/documents/index.png  | width=300)
+[Index Page!](https://github.com/NateJonesIII/staticsitegenerator/blob/e60ac9469b035ceb3d8e12441a296b49a1177792/documents/index.png  | width=300)
 ![Majesty Page](documents/majesty.png | width=300)
 ![Tolkien Page](documents/tolkien.png | width=300)
 ![Web Dev Basics Page](documents/web_dev_basics.png | width=300)
