@@ -10,7 +10,7 @@ text_type_image = "image"
 
 class TextNode:
     # Class constructor
-    def __init__(self,text, text_type, url=None):
+    def __init__(self, text, text_type, url=None):
         self.text = text 
         self.text_type = text_type
         self.url = url
@@ -29,29 +29,26 @@ class TextNode:
         return f"TextNode({self.text}, {self.text_type}, {self.url})"
     
     
-    def text_node_to_html_node(self, textNode):
-        """
-        Convert a TextNode object to an HTML node.
+def text_node_to_html_node(text_node):
+    """
+    Convert a TextNode object to an HTML node.
 
-        Parameters:
-            textNode (TextNode): The TextNode object to convert.
+    Parameters:
+        textNode (TextNode): The TextNode object to convert.
 
-        Returns:
-            LeafNode: An HTML LeafNode representing the TextNode.
-        """
-        if textNode.text_type == "text":
-            return LeafNode(tag=None, value=textNode.value, props=None)
-        elif textNode.text_type == "bold":
-            return LeafNode(tag="b", value=textNode.value, props=None)
-        elif textNode.text_type == "italic":
-            return LeafNode(tag="i", value=textNode.value, props=None)
-        elif textNode.text_type == "code":
-            return LeafNode(tag="code", value=textNode.value, props=None)
-        elif textNode.text_type == "link":
-            props = {"href": textNode.href}
-            return LeafNode(tag="a", value=textNode.value, props=props)
-        elif textNode.text_type == "image":
-            props = {"src": textNode.src, "alt": textNode.alt}
-            return LeafNode(tag="img", value="", props=props)
-        else:
-            raise ValueError("Invalid text node type")
+    Returns:
+        LeafNode: An HTML LeafNode representing the TextNode.
+    """
+    if text_node.text_type == text_type_text:
+        return LeafNode(None, text_node.text)
+    if text_node.text_type == text_type_bold:
+        return LeafNode("b", text_node.text)
+    if text_node.text_type == text_type_italic:
+        return LeafNode("i", text_node.text)
+    if text_node.text_type == text_type_code:
+        return LeafNode("code", text_node.text)
+    if text_node.text_type == text_type_link:
+        return LeafNode("a", text_node.text, {"href": text_node.url})
+    if text_node.text_type == text_type_image:
+        return LeafNode("img", "", {"src": text_node.url, "alt": text_node.text})
+    raise ValueError(f"Invalid text type: {text_node.text_type}")

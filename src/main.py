@@ -1,4 +1,7 @@
 import os.path, os, shutil
+from block_markdown import markdown_to_html_node
+from generate_pages import generate_pages_recursive
+
 
 def clean_directory(destination_dir):
     if os.path.exists(destination_dir):
@@ -15,7 +18,7 @@ def clean_directory(destination_dir):
 def copy_directory(source_dir, destination_dir):
     
     if not os.path.exists(destination_dir): 
-        # Create directory if not created               
+        # Create dest directory if not created               
         os.mkdir(destination_dir)
     
     # enumerate the directory
@@ -37,16 +40,24 @@ def copy_directory(source_dir, destination_dir):
             print(f"Copying directory: {item_source_loc} to {item_dest_loc}")
             # Recursively call copy_directory for the subdirectory
             copy_directory(item_source_loc, item_dest_loc)    
-            
+                 
+
+
 def main():
     source_dir = "./static"
     destination_dir = "./public"
+    content_dir = './content'
+    template_file = 'template.html'
+    output_file = os.path.join(destination_dir, 'index.html')
 
     # Step 1: Clean the destination directory
     clean_directory(destination_dir)
 
     # Step 2: Copy contents from source to destination
     copy_directory(source_dir, destination_dir)
+    
+    # 3. Generate a page from content/index.md using template.html and write it to public/index.html
+    generate_pages_recursive(content_dir, template_file, destination_dir)
 
-
-main()
+if __name__ == "__main__":
+    main()

@@ -2,3 +2,8 @@ __pycache__/
 
 
 public/
+
+
+
+*.txt
+txt.txt
