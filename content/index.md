@@ -1,32 +1,14 @@
-# Tolkien Fan Club
+# Welcome to the Static Site Generator
 
-**I like Tolkien**. Read my [first post here](/majesty) 
+Welcome to the Static Site Generator project! This site showcases the capabilities of our static site generator, including page creation and content management.
 
-> All that is gold does not glitter
+## Available Pages
 
-## Reasons I like Tolkien
+- **I Like Tolkien** [Tolkien](/tolkien)
+- **I Like Web Dev** [Web Development Tips and Tricks](/web-dev)
 
-* You can spend years studying the legendarium and still not understand its depths
-* It can be enjoyed by children and adults alike
-* Disney *didn't ruin it*
-* It created an entirely new genre of fantasy
+## About This Project
 
-## My favorite characters (in order)
+This static site generator takes markdown content and templates, and generates static HTML pages. It’s a great tool for creating fast, efficient, and easily maintainable websites.
 
-1. Gandalf
-2. Bilbo
-3. Sam
-4. Glorfindel
-5. Galadriel
-6. Elrond
-7. Thorin
-8. Sauron
-9. Aragorn
-
-Here's what `elflang` looks like (the perfect coding language):
-
-```
-func main(){
-    fmt.Println("Hello, World!")
-}
-```
+Feel free to explore the pages and see how the static site generator works in action!

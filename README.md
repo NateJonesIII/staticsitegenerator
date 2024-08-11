@@ -12,6 +12,33 @@ This project began with a simple observation: modern websites are often over-eng
 
 Imagine a place where your content takes center stage, where every byte serves a purpose, and where speed is not a luxury but a guarantee. This is the vision behind the Static Site Generator.
 
+## 🖼️ Showcase
+
+Here's a glimpse of what the Static Site Generator can produce:
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <div style="flex: 1;">
+        <img src="documents/index.png" alt="Home Page" style="width: 100%; max-width: 300px;">
+        <p><em>The main index page showcasing links to different content sections.</em></p>
+    </div>
+    <div style="flex: 1;">
+        <img src="documents/majesty.png" alt="Majesty Page" style="width: 100%; max-width: 300px;">
+        <p><em>The detailed page about "The Unparalleled Majesty of The Lord of the Rings."</em></p>
+    </div>
+    <div style="flex: 1;">
+        <img src="documents/tolkien.png" alt="Tolkien Fan Club Page" style="width: 100%; max-width: 300px;">
+        <p><em>The page dedicated to the Tolkien fan club, displaying personal insights and favorite characters.</em></p>
+    </div>
+    <div style="flex: 1;">
+        <img src="documents/web_dev_basics.png" alt="Web Development Basics Page" style="width: 100%; max-width: 300px;">
+        <p><em>An overview of web development basics.</em></p>
+    </div>
+    <div style="flex: 1;">
+        <img src="documents/web_dev_tips.png" alt="Web Development Tips Page" style="width: 100%; max-width: 300px;">
+        <p><em>Helpful tips and tricks for learning web development.</em></p>
+    </div>
+</div>
+
 ## 🚀 Why This Project?
 
 - **Simplicity at its Core:** This project was created to bring back the simplicity of static websites, allowing developers to focus on what they do best—creating content.
@@ -55,6 +82,7 @@ While this project already provides a solid foundation, there are several exciti
 - **Live Preview:** Preview your site in real-time as you write content.
 - **Automated Deployments:** Seamlessly deploy your site to popular hosting platforms with a single command.
 - **Advanced Templating:** Add support for more complex templates and dynamic content generation.
+- **Automated Templating:** Add support to create new links for index page to show new directories added and name them appropriately.
 
 ## 🧑‍💻 Contributing
 Contributions are welcome! Whether it's fixing bugs, adding new features, or improving documentation, your help is invaluable. Please submit a pull request or open an issue to get started.
