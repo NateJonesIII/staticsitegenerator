@@ -12,32 +12,18 @@ This project began with a simple observation: modern websites are often over-eng
 
 Imagine a place where your content takes center stage, where every byte serves a purpose, and where speed is not a luxury but a guarantee. This is the vision behind the Static Site Generator.
 
-## 🖼️ Showcase
+## 📸 Showcase
 
-Here's a glimpse of what the Static Site Generator can produce:
+Here are some results of the static site generator:
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <div style="flex: 1;">
-        <img src="documents/index.png" alt="Home Page" style="width: 100%; max-width: 300px;">
-        <p><em>The main index page showcasing links to different content sections.</em></p>
-    </div>
-    <div style="flex: 1;">
-        <img src="documents/majesty.png" alt="Majesty Page" style="width: 100%; max-width: 300px;">
-        <p><em>The detailed page about "The Unparalleled Majesty of The Lord of the Rings."</em></p>
-    </div>
-    <div style="flex: 1;">
-        <img src="documents/tolkien.png" alt="Tolkien Fan Club Page" style="width: 100%; max-width: 300px;">
-        <p><em>The page dedicated to the Tolkien fan club, displaying personal insights and favorite characters.</em></p>
-    </div>
-    <div style="flex: 1;">
-        <img src="documents/web_dev_basics.png" alt="Web Development Basics Page" style="width: 100%; max-width: 300px;">
-        <p><em>An overview of web development basics.</em></p>
-    </div>
-    <div style="flex: 1;">
-        <img src="documents/web_dev_tips.png" alt="Web Development Tips Page" style="width: 100%; max-width: 300px;">
-        <p><em>Helpful tips and tricks for learning web development.</em></p>
-    </div>
+<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px;">
+    <img src="documents/index.png" alt="Index Page" style="max-height: 300px; object-fit: contain; flex: 0 0 auto;" />
+    <img src="documents/majesty.png" alt="Majesty Page" style="max-height: 300px; object-fit: contain; flex: 0 0 auto;" />
+    <img src="documents/tolkien.png" alt="Tolkien Page" style="max-height: 300px; object-fit: contain; flex: 0 0 auto;" />
+    <img src="documents/web_dev_basics.png" alt="Web Dev Basics Page" style="max-height: 300px; object-fit: contain; flex: 0 0 auto;" />
+    <img src="documents/web_dev_tips.png" alt="Web Dev Tips Page" style="max-height: 300px; object-fit: contain; flex: 0 0 auto;" />
 </div>
+
 
 ## 🚀 Why This Project?
 
